@@ -12,7 +12,7 @@ export class Animal {
         console.log(`${this.nom} bouge de ${distance}m.`);
     }
 
-    autreMethode(unParam:string){
-        console.log(unParam);
-    }
+    // autreMethode(unParam:string){
+    //     console.log(unParam);
+    // }
 }

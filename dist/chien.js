@@ -23,16 +23,24 @@ var Chien = /** @class */ (function (_super) {
     }
     Chien.prototype.deplacer = function (distance) {
         if (distance === void 0) { distance = 0; }
-        console.log(this.nom + " bouge de " + distance + "m.");
+        console.log("Je suis fénant");
     };
-    Chien.prototype.autreMethode = function (unParam, unsecondParam) {
-        if (unsecondParam === void 0) { unsecondParam = 10; }
-        // console.log(unParam + " " + unsecondParam);
-        return unParam + " " + unsecondParam;
+    // autreMethode(unParam: string, unsecondParam: number = 10) {
+    //     // console.log(unParam + " " + unsecondParam);
+    //     return unParam + " " + unsecondParam
+    // }
+    Chien.prototype.manger = function () {
+        console.log("Je mange");
     };
     return Chien;
 }(animal_1.Animal));
-var monChien = new Chien("Milou");
-monChien.deplacer(25);
-monChien.autreMethode("param");
+var chien = new Chien("Milou");
+chien.deplacer(25);
+// chien.autreMethode("param")
+chien.manger();
+var chien2;
+chien2 = chien;
+// chien2.manger()
+chien2.deplacer();
+chien2.deplacer(56);
 //# sourceMappingURL=chien.js.map

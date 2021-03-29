@@ -9,9 +9,6 @@ var Animal = /** @class */ (function () {
         if (distance === void 0) { distance = 0; }
         console.log(this.nom + " bouge de " + distance + "m.");
     };
-    Animal.prototype.autreMethode = function (unParam) {
-        console.log(unParam);
-    };
     return Animal;
 }());
 exports.Animal = Animal;

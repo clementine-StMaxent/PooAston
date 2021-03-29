@@ -5,15 +5,25 @@ class Chien extends Animal {
         super(name);
     }
     deplacer(distance: number = 0) {
-        console.log(`${this.nom} bouge de ${distance}m.`);
+        console.log("Je suis fénant");
     }
-    autreMethode(unParam:string, unsecondParam:number = 10){
-        // console.log(unParam + " " + unsecondParam);
-        return unParam + " " + unsecondParam
+    // autreMethode(unParam: string, unsecondParam: number = 10) {
+    //     // console.log(unParam + " " + unsecondParam);
+    //     return unParam + " " + unsecondParam
+    // }
+    manger() {
+        console.log("Je mange");
     }
 
 }
 
-let monChien = new Chien("Milou");
-monChien.deplacer(25);
-monChien.autreMethode("param")
+let chien = new Chien("Milou");
+chien.deplacer(25);
+// chien.autreMethode("param")
+chien.manger();
+
+let chien2: Animal;
+chien2 = chien;
+// chien2.manger()
+chien2.deplacer();
+chien2.deplacer(56);
