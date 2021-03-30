@@ -1,0 +1,2 @@
+declare class Exo2 {
+}

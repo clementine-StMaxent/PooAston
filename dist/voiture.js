@@ -15,6 +15,7 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.Voiture = void 0;
 var vehicule_1 = require("./vehicule");
 var Voiture = /** @class */ (function (_super) {
     __extends(Voiture, _super);
@@ -37,7 +38,8 @@ var Voiture = /** @class */ (function (_super) {
     };
     return Voiture;
 }(vehicule_1.Vehicule));
-var voiture = new Voiture("", "", new Date, 1, "");
-voiture.setVin("1234");
-console.log(voiture.getVin());
+exports.Voiture = Voiture;
+// let voiture = new Voiture ("", "", new Date, 1, "");
+// voiture.setVin("1234")
+// console.log(voiture.getVin());
 //# sourceMappingURL=voiture.js.map

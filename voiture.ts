@@ -1,6 +1,6 @@
 import { Vehicule } from "./vehicule";
 
-class Voiture extends Vehicule {
+export class Voiture extends Vehicule {
 
     private id: number;
     /*
@@ -8,29 +8,29 @@ class Voiture extends Vehicule {
     */
     private immatriculation: string;
 
-    private vin :string = "";
+    private vin: string = "";
 
-    constructor(marque: string, modele: string, annee: Date, unId:number, immatriculation: string = "") {
+    constructor(marque: string, modele: string, annee: Date, unId: number, immatriculation: string = "") {
         super(marque, modele, annee);
         this.immatriculation = immatriculation;
         this.id = unId;
     }
 
-    public getVin() :string{
+    public getVin(): string {
         return this.vin
     }
 
-    public setVin(unVin:string){
+    public setVin(unVin: string) {
         this.vin = unVin;
     }
 
-    affecterId(id:number){
+    affecterId(id: number) {
         this.id = id;
     }
 
 }
 
-let voiture = new Voiture ("", "", new Date, 1, "");
-voiture.setVin("1234")
-console.log(voiture.getVin());
+// let voiture = new Voiture ("", "", new Date, 1, "");
+// voiture.setVin("1234")
+// console.log(voiture.getVin());
 

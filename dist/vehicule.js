@@ -21,7 +21,7 @@ var Vehicule = /** @class */ (function () {
     return Vehicule;
 }());
 exports.Vehicule = Vehicule;
-var maVoiture = new Vehicule("", "", new Date);
-maVoiture.desc = "Une desc";
-console.log(maVoiture.desc);
+// let maVoiture = new Vehicule("", "", new Date);
+// maVoiture.desc = "Une desc"
+// console.log(maVoiture.desc);
 //# sourceMappingURL=vehicule.js.map

@@ -14,7 +14,7 @@ annee de la voiture
 */
     private annee: Date;
 
-    private _desc : string = "";
+    private _desc: string = "";
 
     constructor(laMarque: string, leModele: string, Annee: Date) {
         this.marque = laMarque;
@@ -26,11 +26,11 @@ annee de la voiture
         return this._desc;
     }
 
-    set desc(uneDesc:string): string {
+    set desc(uneDesc: string) {
         this._desc = uneDesc;
     }
 }
 
-let maVoiture = new Vehicule("","", new Date);
-maVoiture.desc = "Une desc"
-console.log(maVoiture.desc);
+// let maVoiture = new Vehicule("", "", new Date);
+// maVoiture.desc = "Une desc"
+// console.log(maVoiture.desc);
