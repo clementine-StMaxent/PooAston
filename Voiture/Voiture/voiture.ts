@@ -1,4 +1,4 @@
-import { Vehicule } from "./vehicule";
+import { Vehicule } from "../Voiture/vehicule";
 
 export class Voiture extends Vehicule {
 

@@ -1,5 +1,5 @@
-import { Voiture } from './voiture';
-import { Vehicule } from "./vehicule";
+import { Voiture } from './Voiture/Voiture/voiture';
+import { Vehicule } from "./Voiture/Voiture/vehicule";
 
 let maVoiture = new Vehicule("", "", new Date);
 maVoiture.desc = "Une desc"

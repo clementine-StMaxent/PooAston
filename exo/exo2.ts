@@ -1,4 +1,4 @@
-export class Point2D {
+class Point2D {
 
     private x: number | undefined;
     private y: number | undefined;

@@ -1,4 +1,3 @@
-"use strict";
 // function affiche() {
 //     console.log("Une fonction qui affiche et qui nest pas une méthode");
 // }

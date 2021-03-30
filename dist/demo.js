@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var voiture_1 = require("./voiture");
-var vehicule_1 = require("./vehicule");
+var voiture_1 = require("./Voiture/Voiture/voiture");
+var vehicule_1 = require("./Voiture/Voiture/vehicule");
 var maVoiture = new vehicule_1.Vehicule("", "", new Date);
 maVoiture.desc = "Une desc";
 console.log(maVoiture.desc);
