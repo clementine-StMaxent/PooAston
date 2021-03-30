@@ -1,6 +1,6 @@
 interface IOnOff{
     on(): void;
-    of():void;
+    off():void;
 }
 
 export {IOnOff}

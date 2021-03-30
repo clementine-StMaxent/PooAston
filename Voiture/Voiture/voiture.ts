@@ -34,3 +34,5 @@ export class Voiture extends Vehicule {
 // voiture.setVin("1234")
 // console.log(voiture.getVin());
 
+
+
